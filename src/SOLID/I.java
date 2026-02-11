@@ -48,6 +48,7 @@ class PrintManager {
     }
 }
 
+// CLIENTS — This is where ISP is proven
 class ScanManager {
     public void processScan(Scanner scanner) {
         scanner.scan();

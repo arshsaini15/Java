@@ -1,8 +1,10 @@
 package SOLID;
 
-// D -> Dependency Inversion Principle (High-level-modules (WHAT SHOULD HAPPEN) should not depend on low-level-modules(HOW IT HAPPENS)).
+// D -> Dependency Inversion Principle (High-level-modules (WHAT SHOULD HAPPEN) should not depend on low-level-modules (HOW IT HAPPENS)).
 // Both should depend on abstractions, and abstractions should not depend on details.
 
+// High-level modules define business rules — what should happen.
+// Low-level modules handle technical details — how it happens.
 
 // Abstraction
 interface NotificationSender {
@@ -32,7 +34,6 @@ class PushService implements NotificationSender {
         System.out.println("Sending Push Notification");
     }
 }
-
 
 // High Level Module
 class NotificationService {
