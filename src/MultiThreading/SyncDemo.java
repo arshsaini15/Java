@@ -27,8 +27,8 @@ public class SyncDemo {
             }
         };
 
-        Thread t1 = new Thread(task);
-        Thread t2 = new Thread(task);
+        Thread t1 = new Thread(task); // Refering to same Object
+        Thread t2 = new Thread(task); // Refering to same Object
 
         t1.start();
         t2.start();
