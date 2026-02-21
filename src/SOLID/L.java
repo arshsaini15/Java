@@ -1,7 +1,7 @@
 package SOLID;
 
 // L -> Liskov Substitution Principle
-// Subtypes must honor the behavioral contract of their base type.
+// Subtypes must honor the behavioral contract of their base type. (class should not have other method/s apart from base class).
 
 interface Worker {
     void work();

@@ -1,4 +1,4 @@
-package Patterns;
+package DesignPatterns;
 
 class Car {
     private String engine;

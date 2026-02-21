@@ -14,7 +14,7 @@
     Strategy is injected from outside.
 */
 
-package Patterns;
+package DesignPatterns;
 
 interface Payment {
     void pay(double amount);
